@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list{
+    width: 190px;
+    height: 230px;
+    border: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+.list>li{
+    width: 63px;
+    height: 55px;
+    text-align: center;
+    transition: .2s;
+}
+.list>li>img{
+    width: 25px;
+    height: 25px;
+}
+.list>li>p{
+    line-height: 25px;
+    font-size: 12px;
+    color: #333;
+    width: 45px;
+    margin: 0 auto;
+}
+.box{
+    width: 190px;
+    height: 230px;
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .2s;
+    text-align: center;
+    line-height: 180px;
+    
+}
